@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  FourthView.swift
 //  Navigation
 //
 //  Created by Scholar on 7/24/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct FourthView: View {
     var body: some View {
-        Text("This is the home page")
+        Text("This is the contact page")
     }
 }
 
 #Preview {
-    SecondView()
+    FourthView()
 }

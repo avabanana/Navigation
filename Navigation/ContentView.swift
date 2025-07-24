@@ -15,17 +15,25 @@ struct ContentView: View {
                 NavigationLink(destination: SecondView()) {
                     Text("Home")
                 }
-    
+                NavigationLink(destination: ThirdView()) {
+                    Text("About")
                 }
+                NavigationLink(destination: FourthView()) {
+                    Text("Contact")
+                }
+                NavigationLink(destination: FifthView()) {
+                    Text("Help")
+                }
+                
             }
-        .navigationTitle("Home")
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarHidden(true)
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
     }
+}
 
 
 #Preview {
     ContentView()
-        
 }
